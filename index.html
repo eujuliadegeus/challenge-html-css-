@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 2</title>
+    <link rel="stylesheet" type="text/css" href="./challenge1.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;400&display=swap" rel="stylesheet">
+    <style>
+        label {
+            color: #003049;
+        }
+    </style>
+</head>
+
+<body>
+
+    <form method="post" enctype='multipart/form-data'>
+        <h2>Cadastro</h2>
+
+        <div class="firstSection">
+            <label>
+                <span class="titles">
+                    Nome
+                </span>
+                <input autocomplete="name" name="nome" required>
+            </label>
+        </div>
+
+
+        <div class="secondSection">
+            <label>
+                <span class="titles">
+                    Email
+                </span>
+                <input type="email" autocomplete="email" name="email" required>
+            </label>
+        </div>
+
+        <div class="thirdSection">
+            <label>
+                <span class="titles">
+                    Idade
+                </span>
+                <input type="number" min=12 name="idade" required>
+            </label>
+        </div>
+
+        <div class="fourthSection">
+            <label>
+                <span class="titles">
+                    Data de nascimento
+                </span>
+                <input type="date" name="dataDeNascimento" required>
+            </label>
+        </div>
+
+        <div class="fifthSection">
+            <label>
+                <span class="titles">
+                    Onde você possui conta
+                </span>
+                <input type="checkbox" name="Instagram" class="checkbox">
+                <label>
+                    <span class="checkbox">
+                        Instagram
+                    </span>
+                </label>
+                <input type="checkbox" name="Facebook" class="checkbox">
+                <label>
+                    <span class="checkbox">
+                        Facebook
+                    </span>
+                </label>
+                <input type="checkbox" name="Youtube" class="checkbox">
+                <label>
+                    <span class="checkbox">
+                        Youtube
+                    </span>
+                </label>
+            </label>
+        </div>
+
+        <div class="sixthSection">
+            <label>
+                <span class="titles">
+                    Sexo
+                </span>
+                <input type="radio" name="sexo" required class="radio">
+                <label>
+                    <span class="radio">
+                        Masculino
+                    </span>
+                </label>
+                <input type="radio" name="sexo" required class="radio">
+                <label>
+                    <span class="radio">
+                        Feminino
+                    </span>
+                </label>
+            </label>
+        </div>
+
+        <div class="seventhSection">
+            <label>
+                <span class="titles">
+                    Cor dos olhos
+                </span>
+                <input type="color" name="corDosOlhos" required>
+            </label>
+        </div>
+
+        <div class="octaveSection">
+            <label>
+                <span class="titles">
+                    Biografia
+                </span>
+                <textarea required> </textarea>
+            </label>
+        </div>
+
+        <div class="ninthSection">
+            <label>
+                <span class="titles">
+                    Foto do perfil
+                </span>
+                <input type="file" accept="image/*" name="fotoDoPerfil" required>
+            </label>
+        </div>
+
+        <div class="tenthSection">
+            <label>
+                <span class="titles">
+                    Telefone
+                </span>
+                <input type="number" name="telefone" required>
+            </label>
+        </div>
+
+        <div class="linkBox">
+            <label>
+                <span class="titles">
+                    Link do Perfil do Facebook
+                </span>
+                <input type="url" name="linkDoFacebook">
+            </label>
+        </div>
+
+        <div class="passBox">
+            <label>
+                <span class="titles">
+                    Senha
+                </span>
+                <input type="password" name="senha" minlength="6" maxlength="8" required>
+            </label>
+        </div>
+
+        <button type="reset">Limpar</button>
+        <button type="submit">Enviar Dados</button>
+
+
+
+    </form>
+</body>
+
+</html>

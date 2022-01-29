@@ -1,0 +1,63 @@
+
+
+form {
+    border-style: solid;
+    border-color: #F77F00;
+    border-width: 1px;
+    padding: 10px 30px;
+    margin: 5px 5px 0px 5px;
+    font-family: 'Nunito', sans-serif;
+    background-color: #f5ebe0;
+ 
+}
+
+h2{
+    color: #ff4d6d;
+    padding: 2px 2px 2px 2px;
+}
+
+div {
+    display: block;
+    padding: 10px;
+}
+
+
+input {
+    border-color: #c9184a;
+    display: block;
+}
+
+
+.checkbox {
+    display:inline;
+    border-color: #c9184a;
+    color: #c21247;
+}
+
+.titles {
+    display: block;
+    padding: 2px;
+    color: #ff0a54;
+    font-size: 20px;
+}
+
+.radio {
+    display: inline;
+    border-color: #c9184a;
+    color: #c21247;
+}
+
+textarea {
+    border-color: #D62828;
+    display: block;
+}
+
+button {
+    display: inline;
+    background-color: #ff4d6d;
+    width: 100px;
+    height: 40px;
+    color: #ffccd5;
+   border-color: #fff0f3;
+   cursor: pointer;
+}
